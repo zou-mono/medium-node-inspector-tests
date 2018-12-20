@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Web project",
+            "type": "chrome",
+            "url": "http://0.0.0.0:3000"
+        },
+        {
+            "name": "local test",
+            "type": "chrome",
+            "url": "./test.html"
+        },  
+        {
+            "name": "Node project",
+            "type": "node",
+            "command": "node ./index.js",
+            "inspect-brk":false
+        },
+        {
+            "name": "nodejs",
+            "type": "chrome",
+            "url":"http://0.0.0.0:1337"
+        },
+        {
+            "name": "chrome",
+            "type": "chrome",
+            "url":"http://0.0.0.0:1337",
+            "sourceMapPathOverrides":"./test.js.map",
+            "inspect-brk":false
+        }
+  ]
+}
